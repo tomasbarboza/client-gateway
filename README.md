@@ -76,3 +76,10 @@ Nest is [MIT licensed](LICENSE).
 ```bash
 docker run -d --name nats-main -p 4222:4222 -p 6222:6222 -p 8222:8222 nats
 ```
+
+## PROD
+  
+  ```bash
+  docker build -f dockerfile.prod --no-cache -t client-gateway .
+  ```
+
